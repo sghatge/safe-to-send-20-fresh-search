@@ -1,0 +1,10 @@
+[
+  {"id": "RB-014", "title": "Pause a delivery during sending (v7 console)", "updated": "2021-03-10", "review_by": "2022-03-10",
+   "text": "To pause a delivery that is sending, open the delivery in the console. Click pause. The delivery pauses. If the delivery does not pause, pause the MTA. A paused delivery can be resumed. Pause, check, then resume the delivery sending."},
+  {"id": "RB-102", "title": "Stop or pause an in-flight send (v8)", "updated": "2026-05-02", "review_by": "2027-05-02", "supersedes": ["RB-014"],
+   "text": "For a delivery already sending, use Stop in the delivery dashboard. Notify the market lead and record the reason in the incident log. Do not restart the MTA; that affects every market."},
+  {"id": "RB-077", "title": "Quiet hours by market", "updated": "2024-01-15", "review_by": "2025-01-15",
+   "text": "Sending windows per market. Do not schedule a delivery outside 08:00 to 21:00 local time."},
+  {"id": "RB-110", "title": "Incident log template", "updated": "2026-06-01", "review_by": "2027-06-01",
+   "text": "Record what happened, when it was detected, when it was contained and what you changed. Use the reason field for every stopped delivery."}
+]
